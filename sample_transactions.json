@@ -1,0 +1,288 @@
+[
+  {
+    "_id": {
+      "$oid": "681d38fed63812d4655f571a"
+    },
+    "userWallet": "0x00000000001accfa9cef68cf5371a23025b6d4b6",
+    "network": "polygon",
+    "protocol": "aave_v2",
+    "txHash": "0x695c69acf608fbf5d38e48ca5535e118cc213a89e3d6d2e66e6b0e3b2e8d4190",
+    "logId": "0x695c69acf608fbf5d38e48ca5535e118cc213a89e3d6d2e66e6b0e3b2e8d4190_Deposit",
+    "timestamp": 1629178166,
+    "blockNumber": 1629178166,
+    "action": "deposit",
+    "actionData": {
+      "type": "Deposit",
+      "amount": "2000000000",
+      "assetSymbol": "USDC",
+      "assetPriceUSD": "0.9938318274296357543568636362026045",
+      "poolId": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+      "userId": "0x00000000001accfa9cef68cf5371a23025b6d4b6"
+    },
+    "__v": 0,
+    "createdAt": {
+      "$date": "2025-05-08T23:06:39.465Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T23:06:39.465Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "681aa70dd6df53021cc6f3c0"
+    },
+    "userWallet": "0x000000000051d07a4fb3bd10121a343d85818da6",
+    "network": "polygon",
+    "protocol": "aave_v2",
+    "txHash": "0xe6fc162c86b2928b0ba9b82bda672763665152b9de9d92b0e1512a81b1129e3f",
+    "logId": "0xe6fc162c86b2928b0ba9b82bda672763665152b9de9d92b0e1512a81b1129e3f_Deposit",
+    "timestamp": 1621525013,
+    "blockNumber": 1621525013,
+    "action": "deposit",
+    "actionData": {
+      "type": "Deposit",
+      "amount": "145000000000000000000",
+      "assetSymbol": "WMATIC",
+      "assetPriceUSD": "1.970306761113742502077627085754506",
+      "poolId": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+      "userId": "0x000000000051d07a4fb3bd10121a343d85818da6"
+    },
+    "__v": 0,
+    "createdAt": {
+      "$date": "2025-05-07T00:19:26.159Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-07T00:19:26.159Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "681d04c2d63812d4654c733e"
+    },
+    "userWallet": "0x000000000096026fb41fc39f9875d164bd82e2dc",
+    "network": "polygon",
+    "protocol": "aave_v2",
+    "txHash": "0xe2d7eb815c89331a734ed6f204a06c385a1b39040baadf59c3b29099fb138132",
+    "logId": "0xe2d7eb815c89331a734ed6f204a06c385a1b39040baadf59c3b29099fb138132_Deposit",
+    "timestamp": 1627118913,
+    "blockNumber": 1627118913,
+    "action": "deposit",
+    "actionData": {
+      "type": "Deposit",
+      "amount": "1000000000000000",
+      "assetSymbol": "WMATIC",
+      "assetPriceUSD": "0.9223772540040778087468127454060907",
+      "poolId": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+      "userId": "0x000000000096026fb41fc39f9875d164bd82e2dc"
+    },
+    "__v": 0,
+    "createdAt": {
+      "$date": "2025-05-08T19:23:47.877Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T19:23:47.877Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "681d133bd63812d46551b6ef"
+    },
+    "userWallet": "0x000000000096026fb41fc39f9875d164bd82e2dc",
+    "network": "polygon",
+    "protocol": "aave_v2",
+    "txHash": "0x0d63a2eacd82b82f868db825ea7385e6bd8d046ee7295428fe8bd8aa18111dec",
+    "logId": "0x0d63a2eacd82b82f868db825ea7385e6bd8d046ee7295428fe8bd8aa18111dec_Deposit",
+    "timestamp": 1627773318,
+    "blockNumber": 1627773318,
+    "action": "deposit",
+    "actionData": {
+      "type": "Deposit",
+      "amount": "4000000000000000",
+      "assetSymbol": "WMATIC",
+      "assetPriceUSD": "1.057483342538527030870377652200841",
+      "poolId": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+      "userId": "0x000000000096026fb41fc39f9875d164bd82e2dc"
+    },
+    "__v": 0,
+    "createdAt": {
+      "$date": "2025-05-08T20:25:33.141Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T20:25:33.141Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "681899e4ba49fc91cf2f4454"
+    },
+    "userWallet": "0x0000000000e189dd664b9ab08a33c4839953852c",
+    "network": "polygon",
+    "protocol": "aave_v2",
+    "txHash": "0x590eabb812c5006a6f4766f44e6e9d3ad0b5b563de695c78e3192dd7cc6cbbb2",
+    "logId": "0x590eabb812c5006a6f4766f44e6e9d3ad0b5b563de695c78e3192dd7cc6cbbb2_RedeemUnderlying",
+    "timestamp": 1618845907,
+    "blockNumber": 1618845907,
+    "action": "redeemunderlying",
+    "actionData": {
+      "type": "RedeemUnderlying",
+      "amount": "501548",
+      "assetSymbol": "USDC",
+      "assetPriceUSD": "1.00212969929885247748335868168494",
+      "poolId": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+      "userId": "0x7f90122bf0700f9e7e1f688fe926940e8839f353",
+      "toId": "0x0000000000e189dd664b9ab08a33c4839953852c"
+    },
+    "__v": 0,
+    "createdAt": {
+      "$date": "2025-05-05T10:58:45.934Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-05T10:58:45.934Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "681899e4ba49fc91cf2f444b"
+    },
+    "userWallet": "0x0000000000e189dd664b9ab08a33c4839953852c",
+    "network": "polygon",
+    "protocol": "aave_v2",
+    "txHash": "0xf7088e777a37e0229becd726f1c5f472ddec0324b2e6b54eb1e466e6e1c5870b",
+    "logId": "0xf7088e777a37e0229becd726f1c5f472ddec0324b2e6b54eb1e466e6e1c5870b_RedeemUnderlying",
+    "timestamp": 1618845871,
+    "blockNumber": 1618845871,
+    "action": "redeemunderlying",
+    "actionData": {
+      "type": "RedeemUnderlying",
+      "amount": "1061639",
+      "assetSymbol": "USDC",
+      "assetPriceUSD": "1.00212969929885247748335868168494",
+      "poolId": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+      "userId": "0x7f90122bf0700f9e7e1f688fe926940e8839f353",
+      "toId": "0x0000000000e189dd664b9ab08a33c4839953852c"
+    },
+    "__v": 0,
+    "createdAt": {
+      "$date": "2025-05-05T10:58:45.934Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-05T10:58:45.934Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "681899e4ba49fc91cf2f4464"
+    },
+    "userWallet": "0x0000000000e189dd664b9ab08a33c4839953852c",
+    "network": "polygon",
+    "protocol": "aave_v2",
+    "txHash": "0x4b49959659c5f2c78dec0e526303b9840cea68d25f8e99cfbefaba8bd0ba959d",
+    "logId": "0x4b49959659c5f2c78dec0e526303b9840cea68d25f8e99cfbefaba8bd0ba959d_RedeemUnderlying",
+    "timestamp": 1618845985,
+    "blockNumber": 1618845985,
+    "action": "redeemunderlying",
+    "actionData": {
+      "type": "RedeemUnderlying",
+      "amount": "500553",
+      "assetSymbol": "USDC",
+      "assetPriceUSD": "1.00099579035085994743012523994211",
+      "poolId": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+      "userId": "0x7f90122bf0700f9e7e1f688fe926940e8839f353",
+      "toId": "0x0000000000e189dd664b9ab08a33c4839953852c"
+    },
+    "__v": 0,
+    "createdAt": {
+      "$date": "2025-05-05T10:58:45.940Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-05T10:58:45.940Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "681899e4ba49fc91cf2f4442"
+    },
+    "userWallet": "0x0000000000e189dd664b9ab08a33c4839953852c",
+    "network": "polygon",
+    "protocol": "aave_v2",
+    "txHash": "0x8579a83cac34a62049a622b0bee09d9e7d43edec7eca4b486b0db0b9d4202f98",
+    "logId": "0x8579a83cac34a62049a622b0bee09d9e7d43edec7eca4b486b0db0b9d4202f98_RedeemUnderlying",
+    "timestamp": 1618845797,
+    "blockNumber": 1618845797,
+    "action": "redeemunderlying",
+    "actionData": {
+      "type": "RedeemUnderlying",
+      "amount": "4489246503431175327",
+      "assetSymbol": "DAI",
+      "assetPriceUSD": "1.000146774269919458107667661438612",
+      "poolId": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+      "userId": "0x7f90122bf0700f9e7e1f688fe926940e8839f353",
+      "toId": "0x0000000000e189dd664b9ab08a33c4839953852c"
+    },
+    "__v": 0,
+    "createdAt": {
+      "$date": "2025-05-05T10:58:45.934Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-05T10:58:45.934Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "681899e4ba49fc91cf2f4a2e"
+    },
+    "userWallet": "0x0000000000e189dd664b9ab08a33c4839953852c",
+    "network": "polygon",
+    "protocol": "aave_v2",
+    "txHash": "0x72edddf6f791c284cfc8e743b07a30c081c735f37a3930186b9052c87337de90",
+    "logId": "0x72edddf6f791c284cfc8e743b07a30c081c735f37a3930186b9052c87337de90_RedeemUnderlying",
+    "timestamp": 1618859461,
+    "blockNumber": 1618859461,
+    "action": "redeemunderlying",
+    "actionData": {
+      "type": "RedeemUnderlying",
+      "amount": "9995",
+      "assetSymbol": "USDC",
+      "assetPriceUSD": "1.00180480400000002105793698008",
+      "poolId": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+      "userId": "0x445fe580ef8d70ff569ab36e80c647af338db351",
+      "toId": "0x0000000000e189dd664b9ab08a33c4839953852c"
+    },
+    "__v": 0,
+    "createdAt": {
+      "$date": "2025-05-05T10:58:46.045Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-05T10:58:46.045Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68189a50ba49fc91cf2f5f33"
+    },
+    "userWallet": "0x0000000000e189dd664b9ab08a33c4839953852c",
+    "network": "polygon",
+    "protocol": "aave_v2",
+    "txHash": "0x39a01414b6586052600a913f991f79a685e4224c2763a4b1fccb1522e66d4eb9",
+    "logId": "0x39a01414b6586052600a913f991f79a685e4224c2763a4b1fccb1522e66d4eb9_RedeemUnderlying",
+    "timestamp": 1618920577,
+    "blockNumber": 1618920577,
+    "action": "redeemunderlying",
+    "actionData": {
+      "type": "RedeemUnderlying",
+      "amount": "6897212",
+      "assetSymbol": "USDC",
+      "assetPriceUSD": "1.003744084800002066197161119956253",
+      "poolId": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+      "userId": "0x445fe580ef8d70ff569ab36e80c647af338db351",
+      "toId": "0x0000000000e189dd664b9ab08a33c4839953852c"
+    },
+    "__v": 0,
+    "createdAt": {
+      "$date": "2025-05-05T11:00:35.232Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-05T11:00:35.232Z"
+    }
+  }
+]
