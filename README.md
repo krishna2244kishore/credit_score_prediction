@@ -2,6 +2,36 @@
 
 This project assigns a credit score (0-1000) to each wallet based on historical transaction behavior on the Aave V2 protocol, using only transaction-level data.
 
+## Method, Architecture, and Processing Flow
+
+### Method Chosen
+- The project uses a **rule-based scoring system** to assign credit scores to DeFi wallets.
+- The rules are designed to reward responsible, long-term, and safe protocol usage, and penalize risky, bot-like, or exploitative behavior.
+- All features are engineered from raw transaction data, with no external data or labels required.
+
+### Architecture Overview
+- **Input:** `user-wallet-transactions.json` (raw transaction-level data)
+- **Processing:**
+  - Feature engineering per wallet (counts, sums, ratios, activity span, etc.)
+  - Rule-based scoring logic applied to engineered features
+- **Output:** `wallet_scores.csv` (wallet address, credit score)
+
+### Processing Flow
+1. **Data Loading:**
+   - The script reads the JSON file containing all wallet transactions.
+2. **Feature Engineering:**
+   - For each wallet, the script computes:
+     - Number and sum of each action type (deposit, borrow, repay, etc.)
+     - Ratios (repay/borrow, borrow/deposit, liquidation rate)
+     - Activity span (days between first and last transaction)
+     - Average and standard deviation of transaction size (USD)
+3. **Scoring:**
+   - The rule-based logic assigns a score to each wallet based on the engineered features (see "Scoring Logic" below).
+4. **Output Generation:**
+   - The script writes the results to `wallet_scores.csv`, listing each wallet and its credit score.
+
+---
+
 ## Features Engineered
 - **Total transactions** per wallet
 - **Counts and USD sums** for each action: deposit, borrow, repay, redeemunderlying, liquidationcall
